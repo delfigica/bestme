@@ -45,7 +45,7 @@ export const Banner = () => {
           <Typography
             sx={
               laptop
-                ? { fontSize: "4em", fontWeight: 600, color: "#8DD3C8" }
+                ? { fontSize: "6em", fontWeight: 600, color: "#8DD3C8" }
                 : { fontSize: "3.5em", fontWeight: 600, color: "#8DD3C8" }
             }
           >
@@ -54,7 +54,7 @@ export const Banner = () => {
           <Typography
             sx={
               laptop
-                ? { fontSize: "4em", fontWeight: 600 }
+                ? { fontSize: "6em", fontWeight: 600 }
                 : { fontSize: "3.5em", fontWeight: 600 }
             }
           >
