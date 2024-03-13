@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Button, Card, ThemeProvider, Typography } from "@mui/material";
 import { theme } from "../../../Style";
-import { WhatsappBtn } from "../components/WhatsappBtn";
+import { WhatsappBtn } from "../../components/WhatsappBtn";
 import Link from "next/link";
 
 export default function BuyNow() {

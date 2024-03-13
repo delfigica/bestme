@@ -1,12 +1,12 @@
 "use client";
 import { Box, ThemeProvider, Typography, useMediaQuery, useTheme } from "@mui/material";
-import { Banner } from "./components/Banner";
-import { Chanelleges } from "./components/Chanelleges";
+import { Banner } from "../components/Banner";
+import { Chanelleges } from "../components/Chanelleges";
 import { theme } from "../../Style";
-import { Recipes } from "./components/Recipes";
-import { Testimonials } from "./components/Testimonials";
-import { WhatsappBtn } from "./components/WhatsappBtn";
-import { Faq } from "./components/Faq";
+import { Recipes } from "../components/Recipes";
+import { Testimonials } from "../components/Testimonials";
+import { WhatsappBtn } from "../components/WhatsappBtn";
+import { Faq } from "../components/Faq";
 
 export default function Home() {
   const themeRes = useTheme();
