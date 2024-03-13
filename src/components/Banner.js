@@ -100,7 +100,7 @@ export const Banner = () => {
         </Link>
       </Box>
       <Box sx={{ width: "250px" }}>
-        <img src="/phone.png" />
+        <img src="./phone.png" />
       </Box>
     </Box>
   );
